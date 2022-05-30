@@ -30,6 +30,10 @@ html, body {
     justify-content: center;
 } 
 
+.white{
+    color: #FAFAFA;
+}
+
 #welcome{
     font-family: Calibri;
     margin-top: 0;
