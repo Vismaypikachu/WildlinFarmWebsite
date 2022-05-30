@@ -20,6 +20,7 @@ html, body {
 
     padding-top: 100px;
     text-align: center;
+    vertical-align: middle;
 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/res/images/homescreen.jpg);
     background-size: cover;
