@@ -14,7 +14,7 @@ html, body {
     box-sizing: border-box;
 }
 
-.nav .a{
+nav a{
     font-size: 25px;
 }
 
