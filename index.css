@@ -14,11 +14,11 @@ html, body {
     box-sizing: border-box;
 }
 
- .image1{
+.image1{
     height: 721px;
     width: 100%;
 
-    padding-top: 117px;
+    padding-top: 100px;
     text-align: center;
 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/res/images/homescreen.jpg);
@@ -30,6 +30,10 @@ html, body {
     justify-content: center;
 } 
 
+#logo{
+    text-align: center;
+}
+
 .white{
     color: #FAFAFA;
 }
@@ -37,14 +41,14 @@ html, body {
 #welcome{
     font-family: Calibri;
     margin-top: 0;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 #welcomeHeading{
     font-family: Calibri;
     margin-top: 0;
     margin-bottom: 5rem;
-    font-size: 55px;
+    font-size: 75px;
 }
 
 footer{
