@@ -14,29 +14,21 @@ html, body {
     box-sizing: border-box;
 }
 
-/* .image1{
+ .image1{
     height: 721px;
     width: 100%;
 
     padding-top: 117px;
     text-align: center;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/images/IMG_6380.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/res/images/homescreen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-} */
-
-.blue{
-    color: #49a4ff;
-}
-
-.red{
-    color: red;
-}
+} 
 
 #welcome{
     font-family: Calibri;
