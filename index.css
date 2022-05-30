@@ -34,6 +34,26 @@ html, body {
     text-align: center;
 }
 
+.wildlinGreen{
+    color: #6f8987;
+}
+
+.wildlinLightBlue{
+    color: #6d92a9;
+}
+
+.wildlinLightGrey{
+    color: #74849d;
+}
+
+.wildlinGrey{
+    color: #555b6d;
+}
+
+.wildlinBlue{
+    color: #3fa2db;
+}
+
 .white{
     color: #FAFAFA;
 }
