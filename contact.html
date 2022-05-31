@@ -63,7 +63,8 @@
     <br>
 
     <div class = "contact">
-        <form>
+        <form id="contact-form">
+            <input type="hidden" name="contact_number">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" name = "contact_name">
@@ -75,13 +76,13 @@
             </div>
             <div class="mb-3">
                 <label for="phoneNumber" class="form-label">Phone Number</label>
-                <input type="text" class="form-control" id="phoneNumber" name = "contact_number">
+                <input type="text" class="form-control" id="phoneNumber" name = "phone_number">
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <input type="text" class="form-control" id="message" name = "message">
+                <textarea class="form-control" id="message" name = "message">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" value="Send">Submit</button>
         </form>
     </div>
 
