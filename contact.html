@@ -11,17 +11,23 @@
 
     <script type="text/javascript">
         window.onload = function() {
+            const btn = document.getElementById('button');
+
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
-                // generate a five digit number for the contact_number variable
                 this.contact_number.value = Math.random() * 100000 | 0;
-                // these IDs from the previous steps
-                emailjs.send("wildlin_contact", "contact_form", this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
+                btn.value = 'Sending...';
+
+                const serviceID = 'wildlin_contact';
+                const templateID = 'contact_form';
+
+                emailjs.sendForm(serviceID, templateID, this).then(() => {
+                    btn.value = 'Send Email';
+                    alert('Sent!');
+                }, (err) => {
+                    btn.value = 'Send Email';
+                    alert(JSON.stringify(err));
+                 });
             });
         }
     </script>
