@@ -80,6 +80,7 @@ nav a{
 
 .carousel-inner > .carousel-item > img {
     height: 90vh;
+    width: 100%;
 }
 
 /* footer{
