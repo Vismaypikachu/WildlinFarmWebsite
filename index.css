@@ -37,6 +37,13 @@ nav a{
     margin: 0 auto;
 } 
 
+.carousel-inner > .carousel-item > img {
+    height: 90vh;
+    width: 100%;
+    object-fit: contain; 
+}
+
+
 #logo{
     text-align: center;
 }
